@@ -20,9 +20,9 @@ The recommended command line call is:
 
 `npm run benchmark -- --startDifficulty=1 --stepSize=1 --totalIters=1515 --iterationsPerStep=500 --log=false`
 
-Log is recommended to be false only because printing will increase the overall runtime of the script.
+This means that the starting difficulty is 1. After 500 iterations at this level, it will increase the difficulty by 1 (to 2) and will follow the same procedure until a total of 1,515 iterations.
 
-means that the starting difficulty is 2. After 2,000 iterations for this level, it will increase the difficulty by 1 and will follow the same procedure until a total of 10,000 procedures.
+Log is recommended to be false only because printing will increase the overall runtime of the script.
 
 What else might come:
 
