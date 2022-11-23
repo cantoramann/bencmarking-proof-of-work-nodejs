@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "benchmark": "node src/main/run-benchmarks.js"
+    "benchmark": "MODE=benchmark node src/main/index.js"
   },
   "keywords": [],
   "author": "",
