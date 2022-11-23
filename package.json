@@ -1,0 +1,16 @@
+{
+  "name": "simple-blockchain-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node src/main/run-benchmarks.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "yargs": "^17.6.2"
+  }
+}
